@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossário AWK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="botao">
+            <button class="but1"><a href="propCSS.html">Propriedades CSS</a></button>
+            <button class="but2"><a href="scriptsJS.html">Scripts JavaScript</a></button>
+        </div>
+        
+        <div class="htitem">
+            <h1>Estrutura Básica</h1>
+            <code>
+                <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Título da Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+                    
+&lt;/body&gt;
+&lt;/html&gt;
+                    </pre>                    
+            </code>
+            <p id="mostrala">Pode ser feito digitando apenas <b>!</b> no vscode</p>
+        </div>
+
+        <div class="htitem">
+            <h2>Metadados (dentro do Head)</h2>
+            <div>
+                <h1>&lt;title&gt;</h1>
+                <p>Serve para mudar o título da página</p>
+            </div>
+
+            <div>
+                <h1>&lt;meta&gt;</h1>
+                <p>Serve para oferecer informações e metadados como acentos especiais etc.</p>
+            </div>
+
+            <div>
+                <h1>&lt;link&gt;</h1>
+                <p>Serve para linkar stylesheet e outros tipos de documentos</p>
+            </div>
+
+        </div>
+
+        <div class="htitem">
+            <h2>Títulos e Parágrafos</h2>
+
+            <div>
+                <h1>&lt;h1&gt; até &lt;h6&gt;</h1>
+                <p>Serve para criar títulos</p>
+            </div>
+
+            <div>
+                <h1>&lt;p&gt;</h1>
+                <p>Serve para criar parágrafos</p>
+            </div>
+
+            <div>
+                <h1>&lt;br&gt;</h1>
+                <p>Serve para pular uma linha na página</p>
+            </div>
+
+            <div>
+                <h1>&lt;hr&gt;</h1>
+                <p>Serve para criar uma linha horizontal na página</p>
+            </div>
+        </div>
+
+        <div class="htitem">
+            <h2>Formatação de Texto</h2>
+
+            <div>
+                <h1>&lt;b&gt;</h1>
+                <p>Serve para destacar um texto em <b>negrito</b></p>
+            </div>
+
+            <div>
+                <h1>&lt;strong&gt;</h1>
+                <p>Mesma coisa do B mas com destaque <strong>a mais</strong></p>
+            </div>
+
+            <div>
+                <h1>&lt;i&gt;</h1>
+                <p>Serve para destacar um texto em <i>itálico</i></p>
+            </div>
+
+            <div>
+                <h1>&lt;em&gt;</h1>
+                <p>Mesmo princípio do &lt;i&gt; mas com entonação <em>especial</em></p>
+            </div>
+
+            <div>
+                <h1>&lt;u&gt;</h1>
+                <p>Deixa o texto <u>sublinhado</u></p>
+            </div>
+
+            <div>
+                <h1>&lt;mark&gt;</h1>
+                <p>Deixa o texto <mark>marcado</mark></p>
+            </div>
+
+            <div>
+                <h1>&lt;small&gt;</h1>
+                <p>Deixa o texto com as letras <small>pequenas</small></p>
+            </div>
+
+            <div>
+                <h1>&lt;del&gt;</h1>
+                <p>Mostra o texto <del>riscado</del></p>
+            </div>
+
+            <div>
+                <h1>&lt;ins&gt;</h1>
+                <p>Mostra texto <ins>sublinhado</ins> tambem</p>
+            </div>
+
+            <div>
+                <h1>&lt;sub&gt;</h1>
+                <p>Deixa o texto <sub>Subscrito</sub></p>
+            </div>
+
+            <div>
+                <h1>&lt;sup&gt;</h1>
+                <p>Deixa o texto <sup>Sobrescrito</sup></p>
+            </div>
+        </div>
+        
+        <div class="htitem htitemlis" >
+            <h2>Listas</h2>
+
+            <div>
+                <h1>&lt;ul&gt;</h1>
+                <p>Cria uma lista não ordenada</p>
+            </div>
+            
+            <div>
+                <h1>&lt;ol&gt;</h1>
+                <p>Cria uma lista ordenada</p>
+            </div>
+            
+            <div>
+                <h1>&lt;li&gt;</h1>
+                <p>Cria um item de destaque com um ponto</p>
+            </div>
+            
+            <div>
+                <h1>&lt;dl&gt;</h1>
+                <p>Cria uma lista de definição</p>
+            </div>
+            
+            <div>
+                <h1>&lt;dd&gt;</h1>
+                <p>Mostra a descrição de um termo</p>
+            </div>            
+        </div>
+
+        <div class="htitem">
+            <h2>Links e Âncora</h2>
+
+            <div>
+                <h1>&lt;a&gt;</h1>
+                <p>Serve para criar Textos <a class="voltopo" href="#">clicáveis</a> e outros links</p>
+            </div>
+
+            <div>
+                <h1>&lt;button&gt;</h1>
+                <p>Cria um <button class="voltopo">botão</button> na página que pode levar a outras páginas entre outros.</p>
+            </div>
+        </div>
+
+        <div class="htitem">
+            <h2>Imagens e Mídia</h2>
+
+            <div>
+                <h1>&lt;img&gt;</h1>
+                <p>Insere uma imagem como <img src="paisagem.jpg" alt="Exemplo de imagem" width="100"></p>
+            </div>
+            
+
+            <div>
+                <h1>&lt;audio&gt;</h1>
+                <p>Reproduz um áudio como <audio controls><source src="2025-08-06-194220_126913.mp3" type="audio/mpeg"></audio></p>
+            </div>
+        </div>
+
+        <div class="htitem">
+            <h2>Tabelas</h2>
+
+            <div>
+                <h1>&lt;table&gt;</h1>
+                <p>Cria uma tabela como 
+                    <table border="1" class="tab">
+                        <tr><td>Exemplo</td></tr>
+                        <tr><td>&lt;tr&gt; cria uma nova linha na tabela</td></tr>
+                        <tr><td>e o &lt;td&gt; cria essa caixinha mesmo (célula)</td></tr>
+                    </table>
+                </p>
+            </div>
+        </div>
+
+        <div class="htitem">
+            <h2>Utilitários</h2>
+
+            <div>
+                <h1>&lt;header&gt;</h1>
+                <p>Define o cabeçalho da página</p>
+            </div>
+
+            <div>
+                <h1>&lt;nav&gt;</h1>
+                <p>Define uma área de navegação</p>
+            </div>
+            
+            <div>
+                <h1>&lt;main&gt;</h1>
+                <p>Define o conteúdo principal da página</p>
+            </div>
+
+            <div>
+                <h1>&lt;section&gt;</h1>
+                <p>Define uma seção de conteúdo da página</p>
+            </div>
+
+            <div>
+                <h1>&lt;article&gt;</h1>
+                <p>Define um artigo independente na página</p>
+            </div>
+            
+            <div>
+                <h1>&lt;footer&gt;</h1>
+                <p>Define o rodapé da página</p>
+            </div>
+            </div>
+
+            <div class="htitem">
+                <h2>Scripts e Estilos</h2>
+
+                <div>
+                    <h1>&lt;script&gt;</h1>
+                    <p>Adiciona código JavaScript</p>
+                </div>
+                
+                <div>
+                    <h1>&lt;style&gt;</h1>
+                    <p>Adiciona estilo CSS à página</p>
+                </div>
+            </div>
+
+            <div class="htitem">
+                <h2>Outros</h2>
+
+                <div>
+                    <h1>&lt;iframe&gt;</h1>
+                    <p>Incorpora outra página como <br>
+                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3537.460371584728!2d-48.50166942444296!3d-27.548219320056557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527475e01a8efef%3A0x5b0f13adab8483ec!2sSENAI%20Florian%C3%B3polis%20(CTAI)!5e0!3m2!1spt-BR!2sbr!4v1754482437597!5m2!1spt-BR!2sbr" width="400" height="150" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
+                </div>
+
+                <div>
+                    <h1>&lt;svg&gt;</h1>
+                    <p>Desenha formas vetoriais como círculos e outros</p>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <p>Site desenvolvido por Arthur Wolf Kologeski, com fins educativos.
+Todos os direitos reservados. &copy;</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
